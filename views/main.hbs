@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Desk Reporter</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+<body>
+    {{>navbar}}
+
+    <div class="container">
+        <div class="container-md">
+            <div class="navbar-md">
+                <ul class="nav-list">
+                    <li class="nav-link"><a href=''>ServiceDesk</a></li>
+                    <li class="nav-link"><a href=''>Problems & Changes</a></li>
+                    <li class="nav-link"><a href=''>Assets</a></li>
+                </ul>
+            </div>
+            <div class="container-grid">
+                <div class="box">
+                    <p class="text-box">Requests by Technician</p>
+                    <table>
+                        <tr>
+                            <th>Technician</th>
+                            <th>Open</th>
+                            <th>OverDue</th>
+                        </tr>
+                        <tr>
+                            <td>Aleksandar Despotovic</td>
+                            <td>24</td>
+                            <td>2</td>
+                          </tr>
+                          <tr>
+                            <td>Aleksa Miskovic</td>
+                            <td>10</td>
+                            <td>4</td>
+                          </tr>
+                          <tr>
+                            <td>Vladimir Pizula</td>
+                            <td>5</td>
+                            <td>3</td>
+                          </tr>
+                    </table>
+                </div>
+                <div class="box">
+                    <p class="text-box">Unassigned And Open Requests</p>
+                    <table>
+                    <tr>
+                        <th>Created By</th>
+                        <th>Category</th>
+                        <th>DueDate</th>
+                    </tr>
+                    <tr>
+                        <td>Maja Delic</td>
+                        <td>Hardware</td>
+                        <td>Feb 15, 2021 02:23PM</td>
+                      </tr>
+                      <tr>
+                        <td>Maja Delic</td>
+                        <td>Hardware</td>
+                        <td>Feb 15, 2021 02:23PM</td>
+                      </tr>
+                      <tr>
+                        <td>Maja Delic</td>
+                        <td>Hardware</td>
+                        <td>Feb 15, 2021 02:23PM</td>
+                      </tr>
+                </table>
+                </div>
+                <div class="box">
+                    <p class="text-box"></p>
+                    <table>
+                        <tbody>
+                            <tr>Nesto</tr>
+                            <tr>Nesto</tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="box-lg">
+                    <p class="text-box">Changes</p>
+                    <table>
+                    <tr>
+                        <th>Created By</th>
+                        <th>Category</th>
+                        <th>DueDate</th>
+                    </tr>
+                    <tr>
+                        <td>Maja Delic</td>
+                        <td>Hardware</td>
+                        <td>Feb 15, 2021 02:23PM</td>
+                      </tr>
+                      <tr>
+                        <td>Maja Delic</td>
+                        <td>Hardware</td>
+                        <td>Feb 15, 2021 02:23PM</td>
+                      </tr>
+                      <tr>
+                        <td>Maja Delic</td>
+                        <td>Hardware</td>
+                        <td>Feb 15, 2021 02:23PM</td>
+                      </tr>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

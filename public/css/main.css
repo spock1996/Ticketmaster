@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #333333;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-link {
+    list-style: none;
+    color: #fff;
+    display: block;
+    padding: 14px;
+}
+
+.nav-list .nav-link:hover {
+    background-color:  rgba(255, 255, 255, 0.37);
+}
+
+.nav-link  a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link-account  {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.nav-link-account a {
+    color: #fff;
+}
+
+/* === mobile settings for nav bar === */
+
+@media (max-width: 600px) {
+    ul {
+        display: block;
+    }
+
+    
+
+    .nav-link-account {
+        display: block;
+        padding: 14px;
+    }
+    .nav-link-account a {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+    }
+}
+
+
+
+/* === main container settings === */
+
+.container {
+    height: 100vh;
+    background-color: #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.container-md {
+    background: #fff;
+    width: 90%;
+    max-width: 80%;
+    margin-top: 40px;
+}
+
+.navbar-md .nav-link {
+    border: 1px solid transparent;
+    
+}
+
+.navbar-md .nav-link:hover {
+    
+    border-bottom: 1px solid #d0d0d0;
+}
+
+
+
+.navbar-md ul li a {
+    text-decoration: none;
+    color: #1a6ebd;
+    
+}
+
+
+
+/* === container-grid ==== */
+
+.container-grid {
+    background: #eee;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 1em;
+    justify-content: center;
+}
+
+
+.box {
+    background: #fff;
+    margin: 10px;
+    border: 1px solid #d0d0d0;
+}
+
+.box-lg {
+    background: #fff;
+    margin: 10px;
+    border: 1px solid #d0d0d0;
+    grid-column: 1 / 4 ;
+
+}
+
+.text-box {
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #dddddd;
+    
+   
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+td:nth-child(3n) {
+    color: red;
+}
+
+
+
