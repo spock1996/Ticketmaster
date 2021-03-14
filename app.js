@@ -22,6 +22,10 @@ app.get("/requests", (req, res) => {
     res.render("requests")
 })
 
+app.get("/problems", (req, res) => {
+    res.render("problems")
+})
+
 app.get("*", (req, res) => {
     res.render("404")
 })
